@@ -388,7 +388,7 @@
       $('.modal').modal();
       // Fixed action Button Init
       $('.fixed-action-btn').floatingActionButton();
-      // Sidenav Init
+      
       $(document).ready(function(){
          // Comments - Approve & Deny
         $('.approve').click(function(e) {
@@ -399,6 +399,7 @@
           M.toast({html: 'Comment Denied'})
           e.preventDefault();
         });
+        // Sidenav Init
         $('.sidenav').sidenav();
         // Show Section
         $('.section').fadeIn(); 

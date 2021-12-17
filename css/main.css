@@ -3,3 +3,17 @@
   left: 47% !important;
   top: 40% !important;
 }
+
+.btn-extended {
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
